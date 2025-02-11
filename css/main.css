@@ -1683,17 +1683,7 @@ input::-moz-focus-inner {
   opacity: .5;
 }
 
-.intro-slider-img::after {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, black 100%);
-  opacity: .8;
-}
+
 
 .intro-slider-img.bg-opacity-40::before {
   opacity: .4;
@@ -1732,7 +1722,7 @@ input::-moz-focus-inner {
   background-color: transparent;
   padding: 0;
   margin: 0;
-  opacity: .35;
+  opacity: .15;
 }
 
 .intro-particles canvas {
@@ -1747,49 +1737,6 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## grid overlay
  * ------------------------------------------------------------------- */
-.grid-overlay {
-  z-index: 1;
-  display: block;
-  width: 89%;
-  height: 100%;
-  max-width: 1200px;
-  opacity: .65;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-  -webkit-transform: translate3d(-50%, 0, 0);
-  transform: translate3d(-50%, 0, 0);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 50%;
-}
-
-.grid-overlay > div,
-.grid-overlay::before,
-.grid-overlay::after {
-  background-color: rgba(255, 255, 255, 0.1);
-  height: 100%;
-  width: 1px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-}
-
-.grid-overlay::before {
-  content: "";
-  left: 25%;
-}
-
-.grid-overlay::after {
-  content: "";
-  right: 25%;
-}
-
-.grid-overlay > div {
-  left: 50%;
-}
-
 
 /* -------------------------------------------------------------------
  * ## intro content
@@ -2075,7 +2022,7 @@ input::-moz-focus-inner {
 .intro-social {
   z-index: 2;
   list-style: none;
-  font-size: 13px;
+  font-size: 30px;
   line-height: 1.6rem;
   margin: 0;
   padding-bottom: 9.6rem;
